@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2ONDE?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="imagens/configurações_atua.png" alt="configurações" usemap="#meumapa">
+
+    <map name="meumapa">
+        <area shape="rect" coords="448, 382, 633, 569" href="#" onclick="alternarSom(); return false;" alt="musica">
+        <area shape="rect" coords="449, 711, 632, 890" href="#" onclick="sairConfiguracoes(); return false;" alt="sair">
+    </map>
+
+    <script src="navegacao.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+    <script>
+        imageMapResize();
+    </script>
+    <script src="musica_jogo.js"></script>
+</body>
+</html>

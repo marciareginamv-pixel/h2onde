@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2ONDE?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="imagens/TELA_FASE2.png" alt="Descrição da imagem" usemap="#meumapa">
+
+    <map name="meumapa">
+        <area shape="rect" coords="731,933,1033,1020" href="tela2.html" alt="Retângulo">
+        <area shape="rect" coords="423,941,698,1026" href="tela_fase1.html" alt="Retângulo">
+
+        <area shape="rect" coords="1340,16,1430,96" href="#" onclick="abrirConfiguracoes('tela_fase2.html'); return false;" alt="Retângulo">
+    </map>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+    <script>
+        imageMapResize();
+    </script>
+    <script src="musica_jogo.js"></script>
+    <script src="navegacao.js"></script>
+</body>
+
+</html>

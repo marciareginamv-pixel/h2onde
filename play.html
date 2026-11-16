@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2ONDE?</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <img src="imagens/play.png" alt="play" usemap="#meumapa">
+
+    <map name="meumapa">
+        <area shape="rect" coords="346,822,1056,1016" href="apresentacao-lumi.html" alt="começo de jogo">
+
+        <area shape="rect" coords="1332,32,1424,108" href="#" onclick="abrirConfiguracoes('play.html'); return false;" alt="configurações">
+    </map>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+    <script>
+        imageMapResize();
+    </script>
+    <script src="navegacao.js"></script>
+    <script src="musica_jogo.js"></script>
+</body>
+
+</html>

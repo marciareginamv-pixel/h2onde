@@ -1,0 +1,15 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        background-color: #fcfeff;
+        overflow: hidden;
+       
+}
+img {
+        width: 920px;
+        height: 770px;
+}

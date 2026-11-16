@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2ONDE?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="Imagens/TELA_FINAL.png" alt="final" usemap="#meumapa">
+
+    <map name="meumapa">
+        <area shape="rect" coords="586, 715, 873, 997" href="play.html" alt="inicio">
+
+        <area shape="rect" coords="1350, 18, 1440, 114" href="#" onclick="abrirConfiguracoes('TELA_FINAL.html'); return false;" alt="configurações">
+    </map>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+    <script>
+        imageMapResize();
+    </script>
+    <script src="musica_jogo.js"></script>
+    <script src="navegacao.js"></script>
+</body>
+</html>
